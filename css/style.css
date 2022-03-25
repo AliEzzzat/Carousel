@@ -33,6 +33,7 @@
     height          : 500px;
     background-image: url(../images/portfolio-1.jpg);
     background-size : cover;
+    background-position: center center;
     display         : flex;
     justify-content : space-between;
     align-items     : center;
@@ -41,4 +42,9 @@
 #innerBox i {
     font-size: 30px;
     cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+   #innerBox{
+       width: 90%;
+   }
 }
